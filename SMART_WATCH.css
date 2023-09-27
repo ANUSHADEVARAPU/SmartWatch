@@ -1,0 +1,68 @@
+.parent{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content:space-evenly;
+}
+#watch{
+    /*margin:auto;*/
+    height:140px;
+    width:140px;
+    background-color: black;
+    border:8px solid silver;
+    border-radius: 20px;   
+}
+.watch-band{
+    margin:auto;
+    height:80px;
+    width:100px;
+    background-color:palevioletred;
+    /*border-radius: 35px 35px 20px 20px; */ 
+}
+.watch-band1{
+    margin:auto;
+    height:80px;
+    width:100px;
+    background-color:palevioletred;
+    /*border-radius: 35px 35px 20px 20px; */ 
+}
+#watch-button{
+    height:26px;
+    width:10px;
+    /*display:inline-block;*/
+   margin-top: -90px;
+   margin-right:-10px;
+    float:right;
+    background-color:grey;
+}
+#digital-clock {
+    margin-top:50px;
+    text-align: center;
+    font-size:1.2rem;
+    font-weight:normal;
+    color:white;
+    font-family:monospace;
+}
+.description{
+    margin:20px;
+    height:50vh;
+    padding:2rem;
+}
+.select-col{
+   height:40px;
+   width:55px;
+   margin:10px;
+   margin-right:5px;
+   border-radius:5px;
+   display:inline-block;
+}
+
+.buy{
+    border:none;
+    border-radius:5px;
+    height:40px;
+    width:100px;
+    display: inline-block;
+    margin:10px;
+}
